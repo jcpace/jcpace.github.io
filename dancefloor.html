@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sublclass Dance Party</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+
+  </head>
+  <body>
+    <div class="topbar">
+      <span class="title">Subclass Dance Party</span>
+      <a href="#" class="songplayer">Play Song</a>
+      <div>
+         <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">Carlton</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeDean">Dean</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="hackDancer">Hack Reactor</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="snoop">Snoop Dogg</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="miley">Miley</a>
+      </div>
+
+      <audio class="player_audio" src="./src/safety_dance.mp3" controls preload="metadata">
+        <p>Alas, your browser doesn't support html5 audio.</p>
+      </audio>
+
+
+
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+     <script src="lib/jquery.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="src/dancer.js"></script>
+    <script src="src/blinkyDancer.js"></script>
+    <script src="src/miley.js"></script>
+    <script src="src/snoop.js"></script>
+    <script src="src/makeDean.js"></script>
+    <script src="src/hackDancer.js"></script>
+    <script src="src/init.js"></script>
+
+
+  </body>
+</html>
